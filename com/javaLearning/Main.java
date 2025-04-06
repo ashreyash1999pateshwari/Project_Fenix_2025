@@ -19,16 +19,28 @@ public class Main {
         double noOfDays = noOfHours/noOfHoursPut;
         System.out.println(noOfDays);
 
-        System.out.println("Type a number");
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        sc.close();
+//        System.out.println("Type a number");
+//        Scanner sc = new Scanner(System.in);
+//        int number = sc.nextInt();
+//        sc.close();
 
-        switch (number){
-            case 1 : System.out.println("the number is one");
-            case 5 :
-                System.out.println("the number is five");
-        }
+//        switch (5){
+//            case 1 : System.out.println("the number is one");
+//            break;
+//            case 5 :
+//                System.out.println("the number is five");
+//                break;
+//        }
 
+//        LoopsAndFunctions.loops();
+        LoopsAndFunctions.printPrimeNumbers();
+        LoopsAndFunctions.sumOfNNums();
+        LoopsAndFunctions.tableForN();
+        LoopsAndFunctions.isPalindrome(12231);
+        LoopsAndFunctions.reverseANumber(98643);
+        LoopsAndFunctions.factorialOfN(4);
+        LoopsAndFunctions.rightAngleTrianglePattern();
     }
+
+
 }
